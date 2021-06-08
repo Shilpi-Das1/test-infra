@@ -1,6 +1,7 @@
 postsubmits:
   ppc64le-cloud/jenkins-infra:
     - name: load-jenkins-infra-job
+      always_run: true
       branches:
       - master
       decorate: true
